@@ -7,3 +7,6 @@
 3. ``pip install .``
 4. ``python manage.py runserver``
 5. ``curl http://127.0.0.1:8000/endpoint/?x=2&y=4``
+
+
+
