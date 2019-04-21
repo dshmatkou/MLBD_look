@@ -1,5 +1,10 @@
 Taken from [TF_FeatureExtraction](https://github.com/tomrunia/TF_FeatureExtraction)
 
+Tested on 
+```
+python3 example_feat_extract.py --network resnet_v1_101 --checkpoint ./checkpoints/resnet_v1_101_2016_08_28/resnet_v1_101.ckpt --image_path ./data/ --layer_names resnet_v1_101/logits --num_classes 1000
+```
+
 # TensorFlow Feature Extractor
 
 This is a convenient wrapper for **feature extraction** or **classification** in TensorFlow. Given well known pre-trained models on ImageNet, the extractor runs over a list or directory of images. Optionally, features can be saved as HDF5 file. It supports all the [pre-trained models](https://github.com/tensorflow/models/tree/master/research/slim#pre-trained-models) listed on the official page.
