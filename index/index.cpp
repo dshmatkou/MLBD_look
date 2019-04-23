@@ -1,5 +1,4 @@
 #include "index.h"
-#include <iostream>
 
 
 int SmallWorldIndex::AddItem(const std::string &key, const std::vector<float> &embedding) {
