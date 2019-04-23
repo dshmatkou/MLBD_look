@@ -15,7 +15,7 @@ ext = Extension(
     ],
     language='c++',
     extra_compile_args=['-std=c++14'],
-    include_dirs=['src/index'],
+    include_dirs=['index'],
 )
 
 
