@@ -14,7 +14,7 @@ ext = Extension(
         'index/index.cpp'
     ],
     language='c++',
-    extra_compile_args=['-std=c++11'],
+    extra_compile_args=['-std=c++14'],
     include_dirs=['src/index'],
 )
 
