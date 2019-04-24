@@ -1,7 +1,5 @@
-from django.http import HttpResponse, HttpResponseRedirect
-from django.shortcuts import render, redirect
-from django.urls import reverse
-
+from django.http import HttpResponse
+from django.shortcuts import render
 from web.endpoint.forms import UploadFileForm
 
 
@@ -14,7 +12,10 @@ def upload(request):
         if form.is_valid():
             image_ar = form.files['file'].file.read()
             print(image_ar)
-            return HttpResponseRedirect(reverse('star'))
+            # redirect will work into dropone.js line 497
+            return HttpResponse('')
+        else:
+            raise Exception('Incorrect file')
     else:
         form = UploadFileForm()
     return render(request, 'endpoint/model_form_upload.html', {
