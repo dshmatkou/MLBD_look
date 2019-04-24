@@ -12,6 +12,7 @@ cdef extern from "index/index.h":
         void GetKeyValue(int&, string&, vector[float]&)
 
 
+
 cdef class PySmallWorldIndex:
     cdef SmallWorldIndex c_index
 
