@@ -8,3 +8,6 @@ def pysum(x, y):
     cdef int xx = int(x)
     cdef int yy = int(y)
     return int(cppsum(xx, yy))
+
+def pyhandle(data):
+    return data
