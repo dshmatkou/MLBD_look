@@ -107,3 +107,10 @@ venv.bak/
 #IDEA
 .idea
 .idea/*
+
+
+#Project specific
+./feature_extractor/data/*
+./feature_extractor/models/*
+./feature_extractor/checkpoints/*
+*.h5
