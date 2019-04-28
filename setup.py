@@ -22,7 +22,7 @@ ext = Extension(
 setup(
     name='web',
     version='0.1',
-    packages=['web'],
+    packages=['web', 'feature_extractor'],
     license='MIT',
     cmdclass={'build_ext': build_ext},
     ext_modules=[ext],

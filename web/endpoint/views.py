@@ -1,10 +1,13 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from web.endpoint.forms import UploadFileForm
+from feature_extractor.model import Model
 
 
 # Create your views here.
 
+path_to_checkpoint = './checkpoints/resnet_v1_101_2016_08_28/resnet_v1_101.ckpt'
+model = Model(path_to_checkpoint)
 
 def upload(request):
     if request.method == 'POST':
@@ -13,7 +16,10 @@ def upload(request):
             image_ar = form.files['file'].file.read()
             print(image_ar)
             # redirect will work into dropone.js line 497
-            return HttpResponse('')
+
+            features = model.extract_features()
+
+            return HttpResponse(str(features))
         else:
             raise Exception('Incorrect file')
     else:
