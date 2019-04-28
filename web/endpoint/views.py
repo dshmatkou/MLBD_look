@@ -6,7 +6,7 @@ from feature_extractor.model import Model
 
 # Create your views here.
 
-path_to_checkpoint = './checkpoints/resnet_v1_101_2016_08_28/resnet_v1_101.ckpt'
+path_to_checkpoint = './feature_extractor/checkpoints/resnet_v1_101_2016_08_28/resnet_v1_101.ckpt'
 model = Model(path_to_checkpoint)
 
 def upload(request):
@@ -14,10 +14,9 @@ def upload(request):
         form = UploadFileForm(request.POST, request.FILES)
         if form.is_valid():
             image_ar = form.files['file'].file.read()
-            print(image_ar)
             # redirect will work into dropone.js line 497
-
-            features = model.extract_features()
+            features = model.extract_features(image_ar)
+            print(str(features))
 
             return HttpResponse(str(features))
         else:

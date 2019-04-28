@@ -21,8 +21,8 @@ import numpy as np
 import time
 from datetime import datetime
 
-from feature_extractor.feature_extractor import FeatureExtractor
-import feature_extractor.utils as utils
+from feature_extractor.feature_extractor.feature_extractor import FeatureExtractor
+import feature_extractor.feature_extractor.utils as utils
 
 
 def feature_extraction_queue(feature_extractor, image_path, layer_names,
