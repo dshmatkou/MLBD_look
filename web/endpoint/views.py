@@ -6,7 +6,7 @@ from feature_extractor.model import Model
 
 # Create your views here.
 
-path_to_checkpoint = './feature_extractor/checkpoints/resnet_v1_101_2016_08_28/resnet_v1_101.ckpt'
+path_to_checkpoint = './feature_extractor/checkpoints/resnet_v1_101.ckpt'
 model = Model(path_to_checkpoint)
 
 def upload(request):

@@ -40,10 +40,10 @@ class Model(object):
 
 
 if __name__ == "__main__":
-    model = Model('./checkpoints/resnet_v1_101_2016_08_28/resnet_v1_101.ckpt')
+    model = Model('./feature_extractor/checkpoints/resnet_v1_101.ckpt')
 
     image_str = None
-    with open('./data/rider-1.jpg', 'rb') as f:
+    with open('./feature_extractor/data/rider-1.jpg', 'rb') as f:
         image_str = f.read()
 
     model.extract_features(image_str)
