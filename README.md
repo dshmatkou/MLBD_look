@@ -15,3 +15,9 @@
 9. ``python3 example_feat_extract.py --network resnet_v1_101 --checkpoint ./checkpoints/resnet_v1_101_2016_08_28/resnet_v1_101.ckpt --image_path ./data/ --layer_names resnet_v1_101/logits --num_classes 1000`` with `cwd=feature_extractor`.
 10. Out log file is `./feature_extractor/features.h5`
  
+
+# Feature Extractor Usage
+1. Models will be taken from https://github.com/tensorflow/models/
+2. Put models into feature_extractor/models
+3. Checkpoints from http://download.tensorflow.org/models/resnet_v1_101_2016_08_28.tar.gz
+4. Unpack into feature_extractor/checkpoints
