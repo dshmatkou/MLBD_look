@@ -1,13 +1,13 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from web.endpoint.forms import UploadFileForm
-from feature_extractor import model as model_lib
+from feature_extractor.model import Model
 
 
 # Create your views here.
 
 path_to_checkpoint = './checkpoints/resnet_v1_101_2016_08_28/resnet_v1_101.ckpt'
-model = model_lib.Model(path_to_checkpoint)
+model = Model(path_to_checkpoint)
 
 def upload(request):
     if request.method == 'POST':

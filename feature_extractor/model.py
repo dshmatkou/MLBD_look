@@ -1,5 +1,5 @@
-from feature_extractor.raw_feature_extractor import FeatureExtractor
-from example_feat_extract import raw_feature_extraction_queue
+from feature_extractor.feature_extractor.raw_feature_extractor import FeatureExtractor
+from feature_extractor.example_feat_extract import raw_feature_extraction_queue
 
 
 class Model(object):
@@ -17,10 +17,8 @@ class Model(object):
         self.num_preproc_threads = 2
         self.layer_names = ["resnet_v1_101/logits"]
 
-    def extract_features(self, image_as_matrix):
-
         # Initialize the feature extractor
-        feature_extractor = FeatureExtractor(
+        self.feature_extractor = FeatureExtractor(
             network_name=self.network_name,
             checkpoint_path=self.path_to_checkpoint,
             batch_size=self.batch_size,
@@ -29,9 +27,10 @@ class Model(object):
             preproc_threads=self.num_preproc_threads
         )
 
+    def extract_features(self, image_as_matrix):
         # Feature extraction example using a filename queue to feed images
         feature_dataset = raw_feature_extraction_queue(
-            feature_extractor, image_as_matrix, self.layer_names,
+            self.feature_extractor, image_as_matrix, self.layer_names,
             self.batch_size, self.num_classes
         )
 
