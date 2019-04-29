@@ -1,6 +1,6 @@
 [
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000001.jpg",
+        "filename": "faces/000001.jpg",
         "feature_vector": [
             -2.2157886028289795,
             -2.7379236221313477,
@@ -1005,7 +1005,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000002.jpg",
+        "filename": "faces/000002.jpg",
         "feature_vector": [
             2.104146957397461,
             -0.7878646850585938,
@@ -2010,7 +2010,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000003.jpg",
+        "filename": "faces/000003.jpg",
         "feature_vector": [
             -0.4940153658390045,
             0.09019440412521362,
@@ -3015,7 +3015,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000004.jpg",
+        "filename": "faces/000004.jpg",
         "feature_vector": [
             2.0237369537353516,
             0.1068660169839859,
@@ -4020,7 +4020,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000005.jpg",
+        "filename": "faces/000005.jpg",
         "feature_vector": [
             -1.6358647346496582,
             0.9535292387008667,
@@ -5025,7 +5025,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000006.jpg",
+        "filename": "faces/000006.jpg",
         "feature_vector": [
             0.26797157526016235,
             -2.1643521785736084,
@@ -6030,7 +6030,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000007.jpg",
+        "filename": "faces/000007.jpg",
         "feature_vector": [
             2.6510651111602783,
             -1.0122978687286377,
@@ -7035,7 +7035,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000008.jpg",
+        "filename": "faces/000008.jpg",
         "feature_vector": [
             3.734501600265503,
             -1.0631376504898071,
@@ -8040,7 +8040,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000009.jpg",
+        "filename": "faces/000009.jpg",
         "feature_vector": [
             2.1519434452056885,
             -1.2200567722320557,
@@ -9045,7 +9045,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000010.jpg",
+        "filename": "faces/000010.jpg",
         "feature_vector": [
             1.6416579484939575,
             -0.5043404698371887,
@@ -10050,7 +10050,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000011.jpg",
+        "filename": "faces/000011.jpg",
         "feature_vector": [
             0.5677070021629333,
             -0.9792720675468445,
@@ -11055,7 +11055,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000012.jpg",
+        "filename": "faces/000012.jpg",
         "feature_vector": [
             2.3271970748901367,
             1.02999746799469,
@@ -12060,7 +12060,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000013.jpg",
+        "filename": "faces/000013.jpg",
         "feature_vector": [
             7.072071075439453,
             0.9939182996749878,
@@ -13065,7 +13065,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000014.jpg",
+        "filename": "faces/000014.jpg",
         "feature_vector": [
             -0.5759583115577698,
             -1.0816657543182373,
@@ -14070,7 +14070,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000015.jpg",
+        "filename": "faces/000015.jpg",
         "feature_vector": [
             3.921416759490967,
             0.5240590572357178,
@@ -15075,7 +15075,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000016.jpg",
+        "filename": "faces/000016.jpg",
         "feature_vector": [
             3.4116525650024414,
             0.5836105346679688,
@@ -16080,7 +16080,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000017.jpg",
+        "filename": "faces/000017.jpg",
         "feature_vector": [
             0.3820236027240753,
             2.056225538253784,
@@ -17085,7 +17085,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000018.jpg",
+        "filename": "faces/000018.jpg",
         "feature_vector": [
             3.0270895957946777,
             -1.3484972715377808,
@@ -18090,7 +18090,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000019.jpg",
+        "filename": "faces/000019.jpg",
         "feature_vector": [
             1.1043891906738281,
             -3.135213613510132,
@@ -19095,7 +19095,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000020.jpg",
+        "filename": "faces/000020.jpg",
         "feature_vector": [
             5.854428291320801,
             -0.4021449685096741,
@@ -20100,7 +20100,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000021.jpg",
+        "filename": "faces/000021.jpg",
         "feature_vector": [
             7.08518648147583,
             2.0823419094085693,
@@ -21105,7 +21105,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000022.jpg",
+        "filename": "faces/000022.jpg",
         "feature_vector": [
             1.8210152387619019,
             -0.13861225545406342,
@@ -22110,7 +22110,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000023.jpg",
+        "filename": "faces/000023.jpg",
         "feature_vector": [
             5.4824724197387695,
             2.611966133117676,
@@ -23115,7 +23115,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000024.jpg",
+        "filename": "faces/000024.jpg",
         "feature_vector": [
             -3.01409649848938,
             0.41751596331596375,
@@ -24120,7 +24120,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000025.jpg",
+        "filename": "faces/000025.jpg",
         "feature_vector": [
             3.8053550720214844,
             0.577195405960083,
@@ -25125,7 +25125,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000026.jpg",
+        "filename": "faces/000026.jpg",
         "feature_vector": [
             -0.6216729283332825,
             -1.5301330089569092,
@@ -26130,7 +26130,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000027.jpg",
+        "filename": "faces/000027.jpg",
         "feature_vector": [
             2.298754930496216,
             -0.6714428663253784,
@@ -27135,7 +27135,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000028.jpg",
+        "filename": "faces/000028.jpg",
         "feature_vector": [
             2.6233773231506348,
             -0.8149494528770447,
@@ -28140,7 +28140,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000029.jpg",
+        "filename": "faces/000029.jpg",
         "feature_vector": [
             1.942841649055481,
             0.02451503276824951,
@@ -29145,7 +29145,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000030.jpg",
+        "filename": "faces/000030.jpg",
         "feature_vector": [
             3.8535375595092773,
             0.008580238558351994,
@@ -30150,7 +30150,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000031.jpg",
+        "filename": "faces/000031.jpg",
         "feature_vector": [
             5.729381084442139,
             1.3608595132827759,
@@ -31155,7 +31155,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000032.jpg",
+        "filename": "faces/000032.jpg",
         "feature_vector": [
             5.896240234375,
             1.3111261129379272,
@@ -32160,7 +32160,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000033.jpg",
+        "filename": "faces/000033.jpg",
         "feature_vector": [
             1.1348811388015747,
             0.4630119204521179,
@@ -33165,7 +33165,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000034.jpg",
+        "filename": "faces/000034.jpg",
         "feature_vector": [
             -1.1503578424453735,
             -1.7545756101608276,
@@ -34170,7 +34170,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000035.jpg",
+        "filename": "faces/000035.jpg",
         "feature_vector": [
             -0.8415507674217224,
             -0.5581706166267395,
@@ -35175,7 +35175,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000036.jpg",
+        "filename": "faces/000036.jpg",
         "feature_vector": [
             -0.952516496181488,
             0.9937821626663208,
@@ -36180,7 +36180,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000037.jpg",
+        "filename": "faces/000037.jpg",
         "feature_vector": [
             4.517424583435059,
             0.04683202505111694,
@@ -37185,7 +37185,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000038.jpg",
+        "filename": "faces/000038.jpg",
         "feature_vector": [
             9.167156219482422,
             2.4166195392608643,
@@ -38190,7 +38190,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000039.jpg",
+        "filename": "faces/000039.jpg",
         "feature_vector": [
             -0.29940614104270935,
             -0.07465315610170364,
@@ -39195,7 +39195,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000040.jpg",
+        "filename": "faces/000040.jpg",
         "feature_vector": [
             -1.9456804990768433,
             -2.186476707458496,
@@ -40200,7 +40200,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000041.jpg",
+        "filename": "faces/000041.jpg",
         "feature_vector": [
             0.6616343855857849,
             1.449049711227417,
@@ -41205,7 +41205,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000042.jpg",
+        "filename": "faces/000042.jpg",
         "feature_vector": [
             -1.9638636112213135,
             -0.9782500267028809,
@@ -42210,7 +42210,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000043.jpg",
+        "filename": "faces/000043.jpg",
         "feature_vector": [
             5.793705463409424,
             0.3574928939342499,
@@ -43215,7 +43215,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000044.jpg",
+        "filename": "faces/000044.jpg",
         "feature_vector": [
             -2.338524103164673,
             3.441603660583496,
@@ -44220,7 +44220,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000045.jpg",
+        "filename": "faces/000045.jpg",
         "feature_vector": [
             -0.9271268248558044,
             0.13398323953151703,
@@ -45225,7 +45225,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000046.jpg",
+        "filename": "faces/000046.jpg",
         "feature_vector": [
             -0.8568825721740723,
             -0.6083663702011108,
@@ -46230,7 +46230,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000047.jpg",
+        "filename": "faces/000047.jpg",
         "feature_vector": [
             0.5930197238922119,
             0.04342591017484665,
@@ -47235,7 +47235,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000048.jpg",
+        "filename": "faces/000048.jpg",
         "feature_vector": [
             2.923004627227783,
             0.6645113825798035,
@@ -48240,7 +48240,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000049.jpg",
+        "filename": "faces/000049.jpg",
         "feature_vector": [
             4.593677997589111,
             -0.4921700358390808,
@@ -49245,7 +49245,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000050.jpg",
+        "filename": "faces/000050.jpg",
         "feature_vector": [
             6.576141357421875,
             0.9969091415405273,
@@ -50250,7 +50250,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000051.jpg",
+        "filename": "faces/000051.jpg",
         "feature_vector": [
             4.113730430603027,
             -1.2451038360595703,
@@ -51255,7 +51255,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000052.jpg",
+        "filename": "faces/000052.jpg",
         "feature_vector": [
             8.377998352050781,
             0.14206384122371674,
@@ -52260,7 +52260,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000053.jpg",
+        "filename": "faces/000053.jpg",
         "feature_vector": [
             3.161036968231201,
             -0.7082181572914124,
@@ -53265,7 +53265,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000054.jpg",
+        "filename": "faces/000054.jpg",
         "feature_vector": [
             4.342662334442139,
             -1.0530948638916016,
@@ -54270,7 +54270,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000055.jpg",
+        "filename": "faces/000055.jpg",
         "feature_vector": [
             3.510924816131592,
             0.47533920407295227,
@@ -55275,7 +55275,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000056.jpg",
+        "filename": "faces/000056.jpg",
         "feature_vector": [
             -1.3363845348358154,
             -1.0455362796783447,
@@ -56280,7 +56280,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000057.jpg",
+        "filename": "faces/000057.jpg",
         "feature_vector": [
             -3.0861525535583496,
             -1.0104854106903076,
@@ -57285,7 +57285,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000058.jpg",
+        "filename": "faces/000058.jpg",
         "feature_vector": [
             -0.14987830817699432,
             -0.707278847694397,
@@ -58290,7 +58290,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000059.jpg",
+        "filename": "faces/000059.jpg",
         "feature_vector": [
             -0.24179917573928833,
             0.4333740472793579,
@@ -59295,7 +59295,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000060.jpg",
+        "filename": "faces/000060.jpg",
         "feature_vector": [
             3.302877902984619,
             0.6185880899429321,
@@ -60300,7 +60300,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000061.jpg",
+        "filename": "faces/000061.jpg",
         "feature_vector": [
             1.877817153930664,
             -0.46890246868133545,
@@ -61305,7 +61305,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000062.jpg",
+        "filename": "faces/000062.jpg",
         "feature_vector": [
             4.012228488922119,
             0.11273352801799774,
@@ -62310,7 +62310,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000063.jpg",
+        "filename": "faces/000063.jpg",
         "feature_vector": [
             -0.16745604574680328,
             -2.0854201316833496,
@@ -63315,7 +63315,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000064.jpg",
+        "filename": "faces/000064.jpg",
         "feature_vector": [
             6.462254524230957,
             0.9900360107421875,
@@ -64320,7 +64320,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000065.jpg",
+        "filename": "faces/000065.jpg",
         "feature_vector": [
             5.873953342437744,
             1.5484012365341187,
@@ -65325,7 +65325,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000066.jpg",
+        "filename": "faces/000066.jpg",
         "feature_vector": [
             2.4255104064941406,
             0.6304066777229309,
@@ -66330,7 +66330,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000067.jpg",
+        "filename": "faces/000067.jpg",
         "feature_vector": [
             2.6966261863708496,
             0.3583446741104126,
@@ -67335,7 +67335,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000068.jpg",
+        "filename": "faces/000068.jpg",
         "feature_vector": [
             4.716386795043945,
             -0.4972580671310425,
@@ -68340,7 +68340,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000069.jpg",
+        "filename": "faces/000069.jpg",
         "feature_vector": [
             1.3895351886749268,
             -2.2876029014587402,
@@ -69345,7 +69345,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000070.jpg",
+        "filename": "faces/000070.jpg",
         "feature_vector": [
             4.074690818786621,
             0.9195075631141663,
@@ -70350,7 +70350,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000071.jpg",
+        "filename": "faces/000071.jpg",
         "feature_vector": [
             2.1645376682281494,
             -1.5534141063690186,
@@ -71355,7 +71355,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000072.jpg",
+        "filename": "faces/000072.jpg",
         "feature_vector": [
             2.6379504203796387,
             0.5923517346382141,
@@ -72360,7 +72360,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000073.jpg",
+        "filename": "faces/000073.jpg",
         "feature_vector": [
             -0.8873821496963501,
             -1.2070823907852173,
@@ -73365,7 +73365,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000074.jpg",
+        "filename": "faces/000074.jpg",
         "feature_vector": [
             0.24131309986114502,
             -1.0258411169052124,
@@ -74370,7 +74370,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000075.jpg",
+        "filename": "faces/000075.jpg",
         "feature_vector": [
             0.9023509621620178,
             0.8227222561836243,
@@ -75375,7 +75375,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000076.jpg",
+        "filename": "faces/000076.jpg",
         "feature_vector": [
             -0.8158548474311829,
             -1.2216249704360962,
@@ -76380,7 +76380,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000077.jpg",
+        "filename": "faces/000077.jpg",
         "feature_vector": [
             -0.8010711073875427,
             -0.8123727440834045,
@@ -77385,7 +77385,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000078.jpg",
+        "filename": "faces/000078.jpg",
         "feature_vector": [
             -0.6490370035171509,
             2.490046739578247,
@@ -78390,7 +78390,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000079.jpg",
+        "filename": "faces/000079.jpg",
         "feature_vector": [
             3.9861931800842285,
             0.2503814101219177,
@@ -79395,7 +79395,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000080.jpg",
+        "filename": "faces/000080.jpg",
         "feature_vector": [
             6.702198028564453,
             0.7680075168609619,
@@ -80400,7 +80400,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000081.jpg",
+        "filename": "faces/000081.jpg",
         "feature_vector": [
             6.2058424949646,
             0.9885995388031006,
@@ -81405,7 +81405,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000082.jpg",
+        "filename": "faces/000082.jpg",
         "feature_vector": [
             9.089357376098633,
             1.0510742664337158,
@@ -82410,7 +82410,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000083.jpg",
+        "filename": "faces/000083.jpg",
         "feature_vector": [
             0.6431436538696289,
             -1.5201507806777954,
@@ -83415,7 +83415,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000084.jpg",
+        "filename": "faces/000084.jpg",
         "feature_vector": [
             0.8466561436653137,
             -1.2354005575180054,
@@ -84420,7 +84420,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000085.jpg",
+        "filename": "faces/000085.jpg",
         "feature_vector": [
             -0.1947668194770813,
             -1.59919011592865,
@@ -85425,7 +85425,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000086.jpg",
+        "filename": "faces/000086.jpg",
         "feature_vector": [
             0.32399895787239075,
             0.525375247001648,
@@ -86430,7 +86430,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000087.jpg",
+        "filename": "faces/000087.jpg",
         "feature_vector": [
             3.3781304359436035,
             0.923316240310669,
@@ -87435,7 +87435,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000088.jpg",
+        "filename": "faces/000088.jpg",
         "feature_vector": [
             -0.788351833820343,
             -1.9279019832611084,
@@ -88440,7 +88440,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000089.jpg",
+        "filename": "faces/000089.jpg",
         "feature_vector": [
             0.8444247841835022,
             -1.331909418106079,
@@ -89445,7 +89445,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000090.jpg",
+        "filename": "faces/000090.jpg",
         "feature_vector": [
             3.9887142181396484,
             1.85677170753479,
@@ -90450,7 +90450,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000091.jpg",
+        "filename": "faces/000091.jpg",
         "feature_vector": [
             2.829922676086426,
             -0.6148636341094971,
@@ -91455,7 +91455,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000092.jpg",
+        "filename": "faces/000092.jpg",
         "feature_vector": [
             1.2582666873931885,
             -0.4953794777393341,
@@ -92460,7 +92460,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000093.jpg",
+        "filename": "faces/000093.jpg",
         "feature_vector": [
             0.9926666617393494,
             -0.6559281945228577,
@@ -93465,7 +93465,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000094.jpg",
+        "filename": "faces/000094.jpg",
         "feature_vector": [
             1.529215693473816,
             -1.3533339500427246,
@@ -94470,7 +94470,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000095.jpg",
+        "filename": "faces/000095.jpg",
         "feature_vector": [
             6.351898670196533,
             1.0402860641479492,
@@ -95475,7 +95475,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000096.jpg",
+        "filename": "faces/000096.jpg",
         "feature_vector": [
             -1.3211171627044678,
             -1.0795108079910278,
@@ -96480,7 +96480,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000097.jpg",
+        "filename": "faces/000097.jpg",
         "feature_vector": [
             -2.32736873626709,
             -3.684629201889038,
@@ -97485,7 +97485,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000098.jpg",
+        "filename": "faces/000098.jpg",
         "feature_vector": [
             -1.9376444816589355,
             -2.070551633834839,
@@ -98490,7 +98490,7 @@
         ]
     },
     {
-        "filename": "./web/endpoint/static/endpoint/faces/000099.jpg",
+        "filename": "faces/000099.jpg",
         "feature_vector": [
             0.9132538437843323,
             0.7566676139831543,
