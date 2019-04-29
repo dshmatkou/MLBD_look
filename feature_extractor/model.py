@@ -36,7 +36,7 @@ class Model(object):
 
         layer_name = self.layer_names[0]
 
-        return feature_dataset[layer_name][0][0]
+        return list(feature_dataset[layer_name][0][0][0])
 
 
 if __name__ == "__main__":
