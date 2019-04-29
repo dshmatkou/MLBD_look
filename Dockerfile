@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 
 RUN apt update
-RUN apt install python3 python3-pip python3-dev cython3 git -yf
+RUN apt install python3 python3-pip python3-dev cython3 git wget -yf
 
 # download model definitions
 RUN git clone https://github.com/tensorflow/models.git
