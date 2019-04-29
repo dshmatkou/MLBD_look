@@ -4,4 +4,4 @@ services:
     build: .
     image: web:latest
     ports:
-     - 8000:8000
+     - "8000:8000"

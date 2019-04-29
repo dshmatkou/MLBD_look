@@ -13,6 +13,7 @@ RUN wget -O weights.tar.gz http://download.tensorflow.org/models/resnet_v1_101_2
 RUN tar -zxvf weights.tar.gz -C /weights
 
 ENV WEIGHTS_DUMP /weights/resnet_v1_101.ckpt
+ENV INDEX_CACHE /app/out.json
 
 COPY . /app
 WORKDIR /app
