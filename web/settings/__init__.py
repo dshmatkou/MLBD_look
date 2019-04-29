@@ -119,3 +119,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+# Custom settings
+WEIGHTS_DUMP = os.environ['WEIGHTS_DUMP']
+INDEX_CACHE = os.environ.get('INDEX_CACHE', 'out.json')
+GRAPH_CONNECTIVITY = 5
