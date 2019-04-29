@@ -15,6 +15,13 @@ RUN tar -zxvf weights.tar.gz -C /weights
 ENV WEIGHTS_DUMP /weights/resnet_v1_101.ckpt
 ENV INDEX_CACHE /app/out.json
 
+# speed up next stages
+WORKDIR /app
+COPY requirements.txt requirements.txt
+RUN pip3 install -Ur requirements.txt
+
+RUN pip3 install gunicorn
+
 COPY . /app
 WORKDIR /app
 
@@ -22,4 +29,4 @@ RUN pip3 install .
 
 EXPOSE 8000
 
-CMD python3 manage.py runserver
+CMD python manage.py runserver 0.0.0.0:8000
