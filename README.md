@@ -2,11 +2,11 @@
 
 # Запуск:
 ```
-docker build . —tag <web>
-docker run web —network host -it
+docker build --tag web:latest .
+docker run -p 8000:8000 --name webserver web:latest
 ```
 
-Далее в браузере с адресом `127.0.0.1:8000`.
+Далее в браузере с адресом `<your docker host>:8000`.
 Загрузить фотографию. 
 Оценить результат.
 
