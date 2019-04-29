@@ -1,4 +1,5 @@
 import os
+import json
 from django.http import HttpResponse
 from django.shortcuts import render
 from web.endpoint.forms import UploadFileForm
@@ -19,8 +20,9 @@ def upload(request):
             # redirect will work into dropone.js line 497
             features = model.extract_features(image_ar)
             print(str(features))
+            static_link = '/star?static_url=pitt.jpg'
 
-            return HttpResponse(str(features))
+            return HttpResponse(json.dumps({'location': static_link}), content_type="application/json")
         else:
             raise Exception('Incorrect file')
     else:
@@ -31,7 +33,7 @@ def upload(request):
 
 
 def star(request):
-    return render(request, 'endpoint/show_star.html')
+    return render(request, 'endpoint/show_star.html', context = {'static_url': 'endpoint/' + request.GET['static_url']})
 
 
 def home(request):

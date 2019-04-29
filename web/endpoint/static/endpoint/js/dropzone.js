@@ -494,17 +494,15 @@ var Dropzone = function (_Emitter) {
          */
         init: function init() {
         Dropzone.autoDiscover = false;
-        this.on("success", (function(_this) {
+        this.on("success", (file,response, xhr) => {
 
-    return function(file) {
-
-      if (_this.getUploadingFiles().length === 0 && _this.getQueuedFiles().length === 0) {
-
-        setTimeout(function(){window.location.href='/star'},1000);
-
-      }
-    };
-  })(this));
+        if (!response.location) {
+        // do nothing if there's no location supplied (optional)
+            return;
+        }
+        window.location.href = response.location
+        }
+        );
         this.on("maxfilesexceeded", function(file) {
             this.removeAllFiles();
             this.addFile(file);
