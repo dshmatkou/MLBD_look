@@ -680,8 +680,15 @@
                                                                                                                                 style="font-weight:700;">You look like</span></span>
                                                                                                                     </h1>
                                                                                                                     <div>
-                                                                                                                    {% load staticfiles %}
-                                                                                                                    <img src="{% static static_url %}" alt="My image"/>
+                                                                                                                    {% if static_url and static_url.strip %}
+                                                                                                                        {% load staticfiles %}
+                                                                                                                        <img src="{% static static_url %}" alt="My image"/>
+                                                                                                                    {% else %}
+                                                                                                                        <h2 class="font_6"
+                                                                                                                        style="line-height:1.35em; text-align:center;">
+                                                                                                                        <span class="color_15"><span
+                                                                                                                                style="font-weight:700;">Sorry we can not find your celebrity</span></span>
+                                                                                                                    {% endif %}
                                                                                                                 </div>
                                                                                                                 </div>
                                                                                                             </div>
@@ -944,38 +951,6 @@
 
 
                                                                                                         </style>
-                                                                                                        <div id="comp-juv1tt163inlineContent-gridWrapper"
-                                                                                                             data-mesh-internal="true">
-                                                                                                            <div id="comp-juv1tt163inlineContent-gridContainer"
-                                                                                                                 data-mesh-internal="true">
-                                                                                                                <div data-packed="false"
-                                                                                                                         data-min-height="31"
-                                                                                                                     class="txtNew"
-                                                                                                                     id="comp-juv1tt164"
-                                                                                                                     style="width: 940px; min-height: 31px; pointer-events: none;">
-                                                                                                                    <h2 class="font_0"
-                                                                                                                        style="line-height:1.41em; text-align:center;">
-                                                                                                                        <span class="color_15">Download your star&nbsp;:</span>
-                                                                                                                    </h2>
-                                                                                                                </div>
-                                                                                                                <div id="comp-juv1tt165"
-                                                                                                                     data-align="center"
-                                                                                                                     data-disabled="false"
-                                                                                                                     data-margin="20"
-                                                                                                                     data-should-use-flex="true"
-                                                                                                                     data-width="111"
-                                                                                                                     data-height="45"
-                                                                                                                     class="style-juv1cbd4"
-                                                                                                                     data-state="desktop shouldUseFlex center"
-                                                                                                                     style="height: 45px; min-height: 28px; width: 111px;">
-                                                                                                                    <div id="comp-juv1tt165link"
-                                                                                                                         class="g-transparent-a style-juv1cbd4link">
-                                                                                                                        <span id="comp-juv1tt165label"
-                                                                                                                              class="style-juv1cbd4label">Download</span>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
                                                                                                     </div>
                                                                                                 </div>
                                                                                             </div>
