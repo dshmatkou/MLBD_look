@@ -1,102 +1,46 @@
-Taken from [TF_FeatureExtraction](https://github.com/tomrunia/TF_FeatureExtraction)
+Adapted from [TF_FeatureExtraction](https://github.com/tomrunia/TF_FeatureExtraction)
 
-Tested on 
-```
-python3 example_feat_extract.py --network resnet_v1_101 --checkpoint ./checkpoints/resnet_v1_101_2016_08_28/resnet_v1_101.ckpt --image_path ./data/ --layer_names resnet_v1_101/logits --num_classes 1000
-```
+This part is used for feature extraction from an image.
 
-Generate for static
+# Prepare Feature Extractor componets
 
 ```
-python3 ./feature_extractor/example_feat_extract.py --network resnet_v1_101 --checkpoint ./feature_extractor/checkpoints/resnet_v1_101.ckpt --image_path ./web/endpoint/static/endpoint/faces/ --layer_names resnet_v1_101/logits --num_classes 1000 --out_file ./feature_extractor/out.json
+./MLBD_look/setup.sh
 ```
 
+Run this for downloading **checkpoints** (Resnet in our case, can be changed) and **tensorflow models**.
 
-# TensorFlow Feature Extractor
+# Use Feature Extractor for data preparation
 
-This is a convenient wrapper for **feature extraction** or **classification** in TensorFlow. Given well known pre-trained models on ImageNet, the extractor runs over a list or directory of images. Optionally, features can be saved as HDF5 file. It supports all the [pre-trained models](https://github.com/tensorflow/models/tree/master/research/slim#pre-trained-models) listed on the official page.
+The tool can be used as a separate script for preparing data. Let's say you have a list of images, and you want to get a vector describing each image. 
 
-**TensorFlow models tested:**
-
-1. Inception v1-v4
-2. ResNet v1 and v2
-3. VGG 16-19
-
-## Requirements
-
-* [TensorFlow](https://github.com/tensorflow) (tested with version 1.8)
-* [TensorFlow Models](https://github.com/tensorflow/models/)
-* The usual suspects: `numpy`, `scipy`. 
-* Optionally `h5py` for saving features to HDF5 file
-
-
-## Setup
-
-1. Checkout the TensorFlow `models` repository somewhere on your machine. The path where you checkout the repository will be denoted `<checkout_dir>/models`
-
+Usage example:
 ```
-git clone https://github.com/tensorflow/models/
-```  
-
-2. Add the directory `<checkout_dir>/research/slim` to the`$PYTHONPATH` variable. Or add a line to your `.bashrc` file.
-
-```
-export PYTHONPATH="<checkout_dir>/research/slim:$PYTHONPATH"
-```
-
-3. Download the model checkpoints from the [official page](https://github.com/tensorflow/models/tree/master/research/slim#pre-trained-models).
-
-## Usage
-
-There are two example files, one for classification and one for feature extraction.
-
-### Feature Extraction
-
-**ResNet-v1-101**
-```
-example_feat_extract.py 
+python3 example_feat_extract.py 
 --network resnet_v1_101 
---checkpoint ./checkpoints/resnet_v1_101.ckpt 
---image_path ./images_dir/ 
---out_file ./features.h5
+--checkpoint ./checkpoints/resnet_v1_101_2016_08_28/resnet_v1_101.ckpt 
+--image_path <path_to_image_folder> 
+--layer_names resnet_v1_101/logits 
 --num_classes 1000 
---layer_names resnet_v1_101/logits
+--out_file out.json
 ```
 
-**ResNet-v2-101**
-```
-example_feat_extract.py 
---network resnet_v2_101 
---checkpoint ./checkpoints/resnet_v2_101.ckpt 
---image_path ./images_dir/
---out_file ./features.h5 
---layer_names resnet_v2_101/logits 
---preproc_func inception
-```
+The tool can write the result into `json` file (if out_file has this extention), or to `HDF5` file (any other extention).
+The tool is working with the directory with images as files. 
 
-**Inception-v4**
-```
-example_feat_extract.py 
---network inception_v4 
---checkpoint ./checkpoints/inception_v4.ckpt 
---image_path ./images_dir/
---out_file ./features.h5 
---layer_names Logits
-```
+# Use Feature Extractor for raw image processing
 
-### Image Classification
+As after upload, we are given a raw image bytes, the tool has the possibility to work with raw_image_bytes 
 
+Usage example:
 ```
-example_classification.py
---network resnet_v1_101 
---checkpoint ./checkpoints/resnet_v1_101.ckpt 
---image_path ./images_dir/
---num_classes 1000 
---logits_name resnet_v1_101/logits
-```
+from feature_extractor.model import Model
 
 
-## Work in Progress
+path_to_checkpoint = <some_path>
+model = Model(path_to_checkpoint)
 
-1. ~~Save image file names to HDF5 file~~
-2. ~~Support for multi-threaded preprocessing~~
+with open('image_path.jpg', 'rb') as f:
+    raw_image = f.read()
+    features = model.extract_features(image_ar)
+```
