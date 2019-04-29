@@ -227,7 +227,10 @@ if __name__ == "__main__":
         args.batch_size, args.num_classes)
 
     # Write features to disk as HDF5 file
-    utils.write_hdf5(args.out_file, layer_names, feature_dataset)
+    if args.out_file.find("json") != -1:
+        utils.write_json(args.out_file, layer_names, feature_dataset)
+    else:
+        utils.write_hdf5(args.out_file, layer_names, feature_dataset)
     print("Successfully written features to: {}".format(args.out_file))
 
     # Close the threads and close session.

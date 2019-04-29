@@ -18,6 +18,8 @@ from __future__ import print_function
 
 import os
 import h5py
+import json
+import codecs
 import numpy as np
 import matplotlib.pyplot as plt
 from datasets import imagenet
@@ -93,6 +95,29 @@ def write_hdf5(filename, layer_names, feature_dataset):
             print(len(feature_dataset[layer_name]))
             print(feature_dataset[layer_name])
             print(feature_dataset[layer_name].shape)
+
+def write_json(filename, layer_names, feature_dataset):
+    '''
+    Writes features to json file.
+    :param filename: str, filename to output
+    :param layer_names: list of str, layer names
+    :param feature_dataset: dict, containing features[layer_names] = vals
+    :return:
+    '''
+    with open(filename, 'w') as json_file:
+
+        json_data = []
+
+        for layer_name in layer_names[:1]:
+            for cur_filename, vector in zip(feature_dataset['filenames'], feature_dataset[layer_name]):
+                json_data.append(
+                    {
+                        'filename': cur_filename.decode("utf-8"),
+                        'feature_vector': vector[0][0].tolist()
+                    }
+                )
+        
+        json.dump(json_data, json_file, indent=4)
 
 
 def display_imagenet_prediction(image, class_index):
