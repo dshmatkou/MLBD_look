@@ -23,7 +23,7 @@ def upload(request):
             features = model.extract_features(image_ar)
             item = index.find_k_nearest(1, features)[0]
 
-            return HttpResponse(json.dumps({'location': '/star?static_url=' + item[0]}), content_type="application/json")
+            return HttpResponse(json.dumps({'location': '/star?static_url=endpoint/' + item[0]}), content_type="application/json")
         else:
             raise Exception('Incorrect file')
     else:
