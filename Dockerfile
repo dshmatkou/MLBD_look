@@ -16,8 +16,6 @@ ENV WEIGHTS_DUMP=/weights/resnet_v1_101.ckpt
 COPY . /app
 WORKDIR /app
 
-CMD ./setup.sh
-
 RUN pip3 install .
 
 EXPOSE 8000
